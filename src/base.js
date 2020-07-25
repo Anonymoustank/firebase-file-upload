@@ -1,14 +1,15 @@
-import * as firebase from "firebase/app";
+import * as firebase from 'firebase/app';
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBYxudpXLAB8sfKXsrW-3pL1AbxWJHcN-0",
-  authDomain: "frb-fls-example.firebaseapp.com",
-  databaseURL: "https://frb-fls-example.firebaseio.com",
-  projectId: "frb-fls-example",
-  storageBucket: "frb-fls-example.appspot.com",
-  messagingSenderId: "971492637412",
-  appId: "1:971492637412:web:7726a345b7189eacc74af1",
-};
+    apiKey: "AIzaSyDgKVxrtI1vGEwCrxulpv6IS5Cum3bgE3k",
+    authDomain: "course-scheduler-7510d.firebaseapp.com",
+    databaseURL: "https://course-scheduler-7510d.firebaseio.com",
+    projectId: "course-scheduler-7510d",
+    storageBucket: "course-scheduler-7510d.appspot.com",
+    messagingSenderId: "537642069863",
+    appId: "1:537642069863:web:f231b8526fc40b335ec9c2",
+    measurementId: "G-FCWEEZNR0T"
+  };
 
-export const app = firebase.initializeApp(firebaseConfig);
+  export const app = firebase.initializeApp(firebaseConfig);
